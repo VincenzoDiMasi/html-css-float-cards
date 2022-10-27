@@ -61,10 +61,11 @@
 img {
     width: 7rem;
     float: left;
+    padding-right: 4px;
 }
 
 h3,h4 {
-    padding: 8px 2px;
+    padding: 8px 0 7px 0;
 }
 
 .mail {
