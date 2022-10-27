@@ -15,10 +15,15 @@
    text-align: center;
  }
 
+ p {
+    padding-bottom: 3rem;
+ }
+
  .clearfix {
     content: "";
     clear: both;
     display: table;
+   
  }
 
  .row {
@@ -32,11 +37,14 @@
     float: left;
     width: calc(100% / 3);
     text-align: left;
-    padding: 5px 2px;
+    padding: 0 5px 3px 0;
+    border: 8px solid white;
+    
  }
 
  .card {
-    
+    border: 5px;
+    border-color: white;
     width: 350px;
  }
 
@@ -62,3 +70,5 @@ h3,h4 {
 .mail {
     color: rgb(49, 104, 128);
 }
+
+
