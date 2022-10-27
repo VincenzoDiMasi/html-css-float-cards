@@ -11,10 +11,54 @@
  }
 
  .conteiner {
-    border: 0px auto;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+ .clearfix {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+ .row {
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    padding: 0;    
+ }
+
+ .column {
+    float: left;
+    width: calc(100% / 3);
+    text-align: left;
+    padding: 5px 2px;
+ }
+
+ .card {
+    
+    width: 350px;
  }
 
  /* Utilies */
  h1{
     color: rgb(229, 51, 112);
+    padding: 2.5rem;
  }
+
+ p {
+    margin: 0 11rem;
+ }
+
+img {
+    width: 7rem;
+    float: left;
+}
+
+h3,h4 {
+    padding: 8px 2px;
+}
+
+.mail {
+    color: rgb(49, 104, 128);
+}
